@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="/css/style3.css">
+    <link rel="icon" type="image/x-icon" href="/img/elem/logo.png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/img/elem/logo.png" alt="logo" width="55">
+        <p class="titulo">OPENCLIMA</p>
+        <img id="lupa" src="/img/elem/lupa.png" alt="lupa de búsqueda" width="40" height="40">
+        <input id="cuadro" type="text" placeholder="Escriba aquí">
+        <div class="btn">
+            <button class="btnHeader"><a href="/html/registro.html">Registrarse</a></button>
+            <button class="btnHeader"><a href="/html/login.html">Login</a></button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="/html/api.html">API</a></li>
+                <li><a href="/html/contacto.html">Contacto</a></li>
+                <li><a href="/html/precios.html">Precios</a></li>
+                <li><a href="/html/perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Introduzca el nombre de una ciudad:</p>
+        <input type="text" id="buscador" placeholder="Nueva York">
+            <fieldset class="fieldBlue">
+                <h1>API</h1>
+                <fieldset class="fieldWhite">
+                    <div class="perfil">
+                        <p id="nomUser">Nueva York, EEUU - 23 Cº <br/>05/07/2024</p>
+                        <img id="#imgUser" src="/img/elem/logo.png" alt="sol" width="120" height="100">
+                    </div>
+                    <section class="datosClima">
+                        <div>
+                            <label for="temp">Temperaturas:</label><br/>
+                            <input type="text" name="temp" id="temp" value="Máxima: 23Cº, mínima: 15Cº">
+                        </div>
+                        <div>
+                            <label for="cielo">Cielo:</label><br/>
+                            <input type="text" name="cielo" id="cielo" value="Despejado">
+                        </div>
+                        <div>
+                            <label for="humedad">Humedad:</label><br/>
+                            <input type="text" name="humedad" id="humedad" value="62 %">
+                        </div>
+                        <div>
+                            <label for="viento">Fuerza del viento:</label><br/>
+                            <input type="text" name="viento" id="viento" value="8 km/h">
+                        </div>
+                        <div>
+                            <label for="aire">Calidad del aire:</label><br/>
+                            <input type="text" name="aire" id="aire" value="Buena">
+                        </div>
+                        <div>
+                            <label for="presion">Presión:</label><br/>
+                            <input type="text" name="presion" id="presion" value="1029mb">
+                        </div>
+                        <div>
+                            <label for="uv">Índice ultravioleta:</label><br/>
+                            <input type="text" name="uv" id="uv" value="Bajo">
+                        </div>
+                    </section>
+                    <br/>
+                    <div class="divContacto">
+                        <p>Si desea volver a la página de HOME, pulse el siguiente botón:</p><br/>
+                        <img src="/img/elem/solYnube.jpeg" alt="icono sol y nubes" width="100" height="60">
+                        <button class="btnBlue"><a href="../index.html">Home</a></button>
+                    </div>
+                </fieldset>
+            </fieldset>
+    </main>
+    <footer>
+        <img class="logo" src="/img/elem/logo.png" alt="logo" width="55">
+        <p class="titulo">OPENCLIMA</p>
+        <p>Estamos en Cádiz,<br/> calle Algodonales nº 8</p>
+        <p>Síguenos:</p>
+        <img class="imgFooter" src="/img/rrss/fb.jpg" alt="facebook">
+        <img class="imgFooter" src="/img/rrss/twx.png" alt="x">
+        <img class="imgFooter" src="/img/rrss/ig.jpg" alt="instagram">
+        <img class="imgFooter" src="/img/rrss/tiktok.png" alt="tiktok">
+        <img src="/img/elem/logo2.png" alt="logo" width="75" height="70">
+    </footer>
+</body>
+</html>

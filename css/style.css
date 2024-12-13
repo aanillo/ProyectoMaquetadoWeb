@@ -1,0 +1,170 @@
+* {
+    font-family: 'Mukta', 'Arial';
+    box-sizing: border-box;
+}
+
+/*
+Header
+*/
+
+header {
+    position: fixed; 
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 233, 243);
+    gap: 160px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 70px;
+}
+
+.titulo {
+    color: white;
+    font-size: x-large;
+    font-weight: bold; 
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 rgb(236, 95, 48), 
+                 1px -1px 0 rgb(236, 95, 48), 
+                 -1px 1px 0 rgb(236, 95, 48), 
+                 1px 1px 0 rgb(236, 95, 48);
+}
+
+#lupa {
+    background-color: white;
+    border: solid 1px black;
+    margin-right: -160px;
+}
+
+#cuadro {
+    width: 200px;
+    height: 40px;
+}
+
+
+
+.btnHeader {
+    background-color: white;
+    color:rgb(236, 95, 48);
+    border: solid 2px rgb(236, 95, 48);
+    border-radius: 30px;
+    width: 160px;
+    height: 30px;
+    transition: all 1s ease;
+}
+
+.btnHeader a {
+    color: rgb(236, 95, 48);
+    text-decoration: none;
+}
+
+.btnHeader:hover {
+    background-color: rgb(224, 221, 220);
+    transform: scale(1.1);
+}
+
+.btnHeader a:hover {
+    color: rgb(115, 44, 20);
+    font-size: large;
+}
+
+/*
+Nav
+*/
+
+header nav {
+    display: flex;
+    gap: 15px;
+    position: absolute; 
+    width: 100%; 
+    background-color: rgb(222, 245, 254);
+    justify-content: center; 
+    margin-top: 100px; 
+    padding: 10px 0; 
+}
+
+header nav ul {
+    display: flex; 
+    gap: 200px; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+header nav ul li a {
+    display: inline-block; 
+    color: rgb(236, 95, 48);
+    font-size: large;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+header nav ul li a:hover {
+    transform: scale(1.8);
+}
+
+header nav ul li a:active {
+    color: rgb(137, 39, 6);
+}
+
+
+/*
+Main
+*/
+
+main {
+    margin-top: 150px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+main img:first-child {
+    display: block; 
+    margin: 0 auto; 
+}
+
+/*
+Parte de los mapas del mundo
+*/
+
+.mapas {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 100px; 
+    margin: 10px 10px; 
+}
+
+.mapas .card {
+    display: inline-block;
+}
+
+.mapa {
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+/*
+Footer
+*/
+
+footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 233, 243);
+    gap: 130px;
+    width: 100%;
+}
+
+.imgFooter {
+    width: 50px;
+    height: 50px;
+    margin-left: -127px;
+    border-radius: 50%;
+}
